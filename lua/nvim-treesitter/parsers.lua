@@ -2228,7 +2228,9 @@ function M.get_parser(bufnr, lang)
   lang = lang or M.get_buf_lang(bufnr)
 
   if M.has_parser(lang) then
-    return ts.get_parser(bufnr, lang)
+    local parser = ts.get_parser(bufnr, lang)
+    parser:parse(true)
+    return parser
   end
 end
 
