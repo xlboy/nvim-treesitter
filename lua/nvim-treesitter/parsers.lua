@@ -1779,6 +1779,14 @@ list.strace = {
   maintainers = { "@amaanq" },
 }
 
+list.styled = {
+  install_info = {
+    url = "https://github.com/mskelton/tree-sitter-styled",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  maintainers = { "@mskelton" },
+}
+
 list.supercollider = {
   install_info = {
     url = "https://github.com/madskjeldgaard/tree-sitter-supercollider",
@@ -2015,7 +2023,7 @@ list.uxntal = {
 list.v = {
   install_info = {
     url = "https://github.com/v-analyzer/v-analyzer",
-    files = { "src/parser.c", "src/scanner.c" },
+    files = { "src/parser.c" },
     location = "tree_sitter_v",
   },
   filetype = "vlang",

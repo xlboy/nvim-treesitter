@@ -9,7 +9,7 @@
     "revision": "624ff108fe949727217cddb302f20e4f16997b1c"
   },
   "apex": {
-    "revision": "82ee140f4ee7652a4915ac9e9f60c4d66f7637d7"
+    "revision": "ca70b2347a79615cd749517f6c6c2352e50a7ce9"
   },
   "arduino": {
     "revision": "ff1045f5da90344d547022c50f1756be4adaf721"
@@ -30,7 +30,7 @@
     "revision": "27f110dfe79620993f5493ffa0d0f2fe12d250ed"
   },
   "beancount": {
-    "revision": "484f50849bcce887c86451f532bf778689ca8523"
+    "revision": "cd08aefa20dc0f3d5984b08b5d468f75bf4fd096"
   },
   "bibtex": {
     "revision": "ccfd77db0ed799b6c22c214fe9d2937f47bc8b34"
@@ -135,7 +135,7 @@
     "revision": "11426c5fd20eef360d5ecaf10729191f6bc5d715"
   },
   "elm": {
-    "revision": "0ae8d475281a25e9d7ab1068a952ff9a1615c0df"
+    "revision": "c26afd7f2316f689410a1622f1780eff054994b1"
   },
   "elsa": {
     "revision": "0a66b2b3f3c1915e67ad2ef9f7dbd2a84820d9d7"
@@ -147,7 +147,7 @@
     "revision": "203f7bd3c1bbfbd98fc19add4b8fcb213c059205"
   },
   "erlang": {
-    "revision": "56942778b5791d07949e6c7b6093e01aba5b7ab4"
+    "revision": "57e69513efd831f9cc8207d65d96bad917ca4aa4"
   },
   "facility": {
     "revision": "a52579670e2b14ec03d410c3c980fafaf6d659c4"
@@ -198,7 +198,7 @@
     "revision": "f4685bf11ac466dd278449bcfe5fd014e94aa504"
   },
   "gleam": {
-    "revision": "c9c7f0f01749d301b54e96ed8e0c47c7c415a196"
+    "revision": "2b49c49ef632928b5c52bb0a7269ff797d5d1414"
   },
   "glimmer": {
     "revision": "f9746dc1d0707717fbba84cb5c22a71586af23e1"
@@ -216,7 +216,7 @@
     "revision": "b6ef0768711086a86b3297056f9ffb5cc1d77b4a"
   },
   "gomod": {
-    "revision": "af4270aed18500af1d24e6de5f6e7d243e2c8b05"
+    "revision": "9b86399ab733fbd548ba0e817e732cb3351082d2"
   },
   "gosum": {
     "revision": "e2ac513b2240c7ff1069ae33b2df29ce90777c11"
@@ -243,7 +243,7 @@
     "revision": "3d4af179414525a35dd069ba0208c9b71093d8b3"
   },
   "haskell": {
-    "revision": "d70b321b8b702939d722c2c15f4c28d14e91a400"
+    "revision": "dd924b8df1eb76261f009e149fc6f3291c5081c2"
   },
   "haskell_persistent": {
     "revision": "577259b4068b2c281c9ebf94c109bd50a74d5857"
@@ -390,10 +390,10 @@
     "revision": "3bc691d2cfba44bea339a775ad496c8bc552c60d"
   },
   "nickel": {
-    "revision": "502a8746c82c616ed441e0ab2b8c09772ee7d114"
+    "revision": "091b5dcc7d138901bcc162da9409c0bb626c0d27"
   },
   "nim": {
-    "revision": "d41fd3e4c1f83a0e6429c2d035209e107e80e6f8"
+    "revision": "70ceee835e033acbc7092cd7f4f6a251789af121"
   },
   "nim_format_string": {
     "revision": "d45f75022d147cda056e98bfba68222c9c8eca3a"
@@ -402,7 +402,7 @@
     "revision": "0a95cfdc0745b6ae82f60d3a339b37f19b7b9267"
   },
   "nix": {
-    "revision": "66e3e9ce9180ae08fc57372061006ef83f0abde7"
+    "revision": "763168fa916a333a459434f1424b5d30645f015d"
   },
   "norg": {
     "revision": "014073fe8016d1ac440c51d22c77e3765d8f6855"
@@ -441,7 +441,7 @@
     "revision": "e01767921df18142055d97407595329d7629e643"
   },
   "perl": {
-    "revision": "3911403cba497196fb867a6f1e286e3e1576f425"
+    "revision": "655632fa7f9174acbdbf1ad2abdac90ad3aa57a1"
   },
   "php": {
     "revision": "0a99deca13c4af1fb9adcb03c958bfc9f4c740a9"
@@ -543,7 +543,7 @@
     "revision": "ce6086b2c9e8e71065b8129d6c2289c5f66d1879"
   },
   "rst": {
-    "revision": "3c03a4bb2c27f1fa76f1ca5563c1fc10187e4028"
+    "revision": "3ba9eb9b5a47aadb1f2356a3cab0dd3d2bd00b4b"
   },
   "ruby": {
     "revision": "f257f3f57833d584050336921773738a3fd8ca22"
@@ -552,7 +552,7 @@
     "revision": "79456e6080f50fc1ca7c21845794308fa5d35a51"
   },
   "scala": {
-    "revision": "1b4c2fa5c55c5fd83cbb0d2f818f916aba221a42"
+    "revision": "696965ee3bafd47f4b5204d1e63b4ea4b52d9f9b"
   },
   "scfg": {
     "revision": "6deae0cbb458c849a4d1e2985093e9c9c32d7fd0"
@@ -582,10 +582,10 @@
     "revision": "168020304759ad5d8b4a88a541a699134e3730c5"
   },
   "soql": {
-    "revision": "82ee140f4ee7652a4915ac9e9f60c4d66f7637d7"
+    "revision": "ca70b2347a79615cd749517f6c6c2352e50a7ce9"
   },
   "sosl": {
-    "revision": "82ee140f4ee7652a4915ac9e9f60c4d66f7637d7"
+    "revision": "ca70b2347a79615cd749517f6c6c2352e50a7ce9"
   },
   "sparql": {
     "revision": "05f949d3c1c15e3261473a244d3ce87777374dec"
@@ -604,6 +604,9 @@
   },
   "strace": {
     "revision": "d819cdd5dbe455bd3c859193633c8d91c0df7c36"
+  },
+  "styled": {
+    "revision": "5e52758b32e02adca16bb93f95b3f9c050c72b56"
   },
   "supercollider": {
     "revision": "3b35bd0fded4423c8fb30e9585c7bacbcd0e8095"
@@ -633,7 +636,7 @@
     "revision": "33482c92a0dfa694491d34e167a1d2f52b0dccb1"
   },
   "templ": {
-    "revision": "6b9dff614d5bab902cb6989bfcaa180636218159"
+    "revision": "14d105789af342f7f0c32bff2fec1a6edec59f60"
   },
   "terraform": {
     "revision": "e135399cb31b95fac0760b094556d1d5ce84acf0"
@@ -648,7 +651,7 @@
     "revision": "a7f11d946b44244f71df41d2a78af0665d618dae"
   },
   "tlaplus": {
-    "revision": "c5fae9e4ad9f483fb6232a8688a2c940be6b496b"
+    "revision": "aeb2e8fdc417c32ae7d1149cfa2a8ddc3b293600"
   },
   "todotxt": {
     "revision": "0207f6a4ab6aeafc4b091914d31d8235049a2578"
@@ -690,7 +693,7 @@
     "revision": "4c5ecd6326ebd61f6f9a22a370cbd100e0d601da"
   },
   "v": {
-    "revision": "20e9968fcb7c53686d588d8cd4ad294340a27732"
+    "revision": "b59edeac4a819999ebc5a78bbd384bd30bf6fa30"
   },
   "vala": {
     "revision": "8f690bfa639f2b83d1fb938ed3dd98a7ba453e8b"
@@ -705,7 +708,7 @@
     "revision": "32c76f150347c1cd044e90b8e2bc73c00677fa55"
   },
   "vimdoc": {
-    "revision": "60045f7d717eba85fa8abd996e0bb50eed5a3d8e"
+    "revision": "4f8ba9e39c8b3fbaf0bb5f70ac255474a9099359"
   },
   "vue": {
     "revision": "91fe2754796cd8fba5f229505a23fa08f3546c06"
@@ -717,7 +720,7 @@
     "revision": "a041228ae64632f59b9bd37346a0dbcb7817f36b"
   },
   "wing": {
-    "revision": "b2a8767803a50d654e9bfbd90d55cc0414b6ca8f"
+    "revision": "d85ef04bb7e75e2627348b45a5f357a2c7fbee91"
   },
   "xcompose": {
     "revision": "01344fed31a3cd37a63f03357ec80cbc592a93b5"
