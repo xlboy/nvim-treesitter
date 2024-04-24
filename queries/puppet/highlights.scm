@@ -42,9 +42,8 @@
   name: (identifier) @attribute)
 
 (attribute
-  name:
-    (variable
-      (identifier) @attribute))
+  name: (variable
+    (identifier) @attribute))
 
 ; Parameters
 (lambda
@@ -133,7 +132,9 @@
   (#lua-match? @type "^[A-Z]"))
 
 ((identifier) @type.builtin
-  (#any-of? @type.builtin "Boolean" "Integer" "Float" "String" "Array" "Hash" "Regexp" "Variant" "Data" "Undef" "Default" "File"))
+  (#any-of? @type.builtin
+    "Boolean" "Integer" "Float" "String" "Array" "Hash" "Regexp" "Variant" "Data" "Undef" "Default"
+    "File"))
 
 ; "Namespaces"
 (class_identifier

@@ -37,7 +37,7 @@
   "prepend"
 ] @function.method
 
-(visibility) @type.qualifier
+(visibility) @keyword.modifier
 
 (comment) @comment @spell
 
@@ -80,7 +80,7 @@
 (const_name
   (constant) @constant)
 
-(global_name) @variable.global
+(global_name) @variable
 
 ; Standard Arguments
 (parameter

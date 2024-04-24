@@ -1,9 +1,13 @@
 ; inherits: html_tags
+
 (identifier) @variable
 
 (pipe_operator) @operator
 
-(string) @string
+[
+  (string)
+  (static_member_expression)
+] @string
 
 (number) @number
 
@@ -11,9 +15,8 @@
   name: (identifier) @function)
 
 (pipe_call
-  arguments:
-    (pipe_arguments
-      (identifier) @variable.parameter))
+  arguments: (pipe_arguments
+    (identifier) @variable.parameter))
 
 (structural_directive
   "*" @keyword
@@ -46,14 +49,12 @@
   function: (identifier) @function)
 
 (call_expression
-  function:
-    ((identifier) @function.builtin
-      (#eq? @function.builtin "$any")))
+  function: ((identifier) @function.builtin
+    (#eq? @function.builtin "$any")))
 
 (pair
-  key:
-    ((identifier) @variable.builtin
-      (#eq? @variable.builtin "$implicit")))
+  key: ((identifier) @variable.builtin
+    (#eq? @variable.builtin "$implicit")))
 
 ((control_keyword) @keyword.repeat
   (#any-of? @keyword.repeat "for" "empty"))
@@ -115,7 +116,7 @@
 (nullish_coalescing_expression
   (coalescing_operator) @operator)
 
-(concatination_expression
+(concatenation_expression
   "+" @operator)
 
 (binary_expression
