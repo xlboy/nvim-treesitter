@@ -14,9 +14,6 @@
 [
   "foreign"
   "using"
-  "struct"
-  "enum"
-  "union"
   "defer"
   "cast"
   "transmute"
@@ -24,8 +21,14 @@
   "map"
   "bit_set"
   "matrix"
-  "bit_field"
 ] @keyword
+
+[
+  "struct"
+  "enum"
+  "union"
+  "bit_field"
+] @keyword.type
 
 "proc" @keyword.function
 
@@ -190,7 +193,7 @@
 
 ((identifier) @type
   (#lua-match? @type "^[A-Z][a-zA-Z0-9]*$")
-  (#not-has-parent? @type parameter procedure_declaration))
+  (#not-has-parent? @type parameter procedure_declaration call_expression))
 
 ; Fields
 (member_expression

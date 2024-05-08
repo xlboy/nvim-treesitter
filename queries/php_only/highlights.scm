@@ -13,25 +13,28 @@
 ] @keyword.function
 
 [
-  "class"
   "clone"
   "declare"
   "default"
   "echo"
   "enddeclare"
-  "enum"
   "extends"
   "global"
   "goto"
   "implements"
   "insteadof"
-  "interface"
   "print"
-  "namespace"
   "new"
-  "trait"
   "unset"
 ] @keyword
+
+[
+  "enum"
+  "class"
+  "interface"
+  "namespace"
+  "trait"
+] @keyword.type
 
 [
   "abstract"
@@ -317,10 +320,12 @@
   ])
 
 ; Parameters
-[
-  (simple_parameter)
-  (variadic_parameter)
-] @variable.parameter
+(variadic_parameter
+  "..." @operator
+  name: (variable_name) @variable.parameter)
+
+(simple_parameter
+  name: (variable_name) @variable.parameter)
 
 (argument
   (name) @variable.parameter)
@@ -362,7 +367,9 @@
 (attribute_list) @attribute
 
 ; Conditions ( ? : )
-(conditional_expression) @keyword.conditional
+(conditional_expression
+  "?" @keyword.conditional.ternary
+  ":" @keyword.conditional.ternary)
 
 ; Directives
 (declare_directive

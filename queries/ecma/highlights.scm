@@ -43,6 +43,10 @@
 
 (statement_identifier) @label
 
+(glimmer_opening_tag) @tag.builtin
+
+(glimmer_closing_tag) @tag.builtin
+
 ; Function and method definitions
 ;--------------------------------
 (function_expression
@@ -334,7 +338,6 @@
 
 [
   "break"
-  "class"
   "const"
   "debugger"
   "export"
@@ -347,6 +350,8 @@
   "var"
   "with"
 ] @keyword
+
+"class" @keyword.type
 
 [
   "async"
